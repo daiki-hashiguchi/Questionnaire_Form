@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.form {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgb(240, 240, 240);
+}
+
+.item {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.label {
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+  border-left: 3px solid lightblue;
+  padding-left: 10px;
+}
+
+.item p {
+  display: inline;
+}
+
+form .item input[type=text],
+form .item textarea {
+  display: block;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgb(240, 240, 240);
+}
+
+.contents {
+  margin: 20px auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table tr {
+  border-bottom: solid 1px #bababa;
+}
+
+table th,
+table td {
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+.thanks {
+  margin-top: 50px;
+}
